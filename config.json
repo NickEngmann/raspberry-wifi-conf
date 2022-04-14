@@ -5,18 +5,18 @@
     "access_point": {
         "force_reconfigure": false,
         "wifi_interface":    "wlan0",
-        "ssid":              "rpi-config-ap",
-        "passphrase":        "123456z*",
-        "domain":            "rpi.config",
-        "ip_addr":           "192.168.88.1",
+        "ssid":              "Mobile-AP",
+        "passphrase":        "123456789",
+        "domain":            "wifi.config",
+        "ip_addr":           "192.168.1.1",
         "netmask":           "255.255.255.0",
-        "subnet_ip":         "192.168.88.0",
-        "broadcast_address": "192.168.88.255",
-        "subnet_range_start": "192.168.88.100",
-        "subnet_range_end": "192.168.88.200"
+        "subnet_ip":         "192.168.1.0",
+        "broadcast_address": "192.168.1.255",
+        "subnet_range_start": "192.168.1.100",
+        "subnet_range_end": "192.168.1.120"
     },
 
     "server": {
-        "port": 8888
+        "port": 80
     }
 }
